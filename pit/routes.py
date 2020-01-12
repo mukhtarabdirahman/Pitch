@@ -1,7 +1,7 @@
 from flask import render_template, url_for, flash, redirect
-from pitch import app, db, bcrypt
-from pitch.forms import RegistrationForm, LoginForm
-from pitch.models import User, Post
+from pit import app, db, bcrypt
+from pit.forms import RegistrationForm, LoginForm
+from pit.models import User, Post
 
 
 posts = [

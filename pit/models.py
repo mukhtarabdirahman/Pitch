@@ -1,5 +1,5 @@
 from datetime import datetime
-from pitch import db
+from pit import db
 
 
 class User(db.Model):
